@@ -26,5 +26,9 @@ public class activity_LerDados extends AppCompatActivity {
         String Email = intent.getStringExtra(App.Email);
         TextView textViewVerEmail = (TextView) findViewById(R.id.textViewVerEmail);
         textViewVerEmail.setText(Email);
+        //Idade
+        String Idade = intent.getStringExtra(App.Idade);
+        TextView textViewVerIdade = (TextView) findViewById(R.id.textViewVerIdade);
+        textViewVerIdade.setText(Idade);
     }
 }

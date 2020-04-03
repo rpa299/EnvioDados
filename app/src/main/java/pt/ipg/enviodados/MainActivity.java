@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         String email = editTextEmail.getText().toString();
         intent.putExtra(App.Email, email);
+        //Idade
+        EditText editTextIdade = (EditText) findViewById(R.id.editTextIdade);
+        String idade = editTextIdade.getText().toString();
+        intent.putExtra(App.Idade, idade);
+
         startActivity(intent);
     }
 }
