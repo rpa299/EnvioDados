@@ -30,5 +30,9 @@ public class activity_LerDados extends AppCompatActivity {
         String Idade = intent.getStringExtra(App.Idade);
         TextView textViewVerIdade = (TextView) findViewById(R.id.textViewVerIdade);
         textViewVerIdade.setText(Idade);
+        //Peso
+        String Peso = intent.getStringExtra(App.Peso);
+        TextView textViewVerPeso = (TextView) findViewById(R.id.textViewVerPeso);
+        textViewVerPeso.setText(Peso);
     }
 }
