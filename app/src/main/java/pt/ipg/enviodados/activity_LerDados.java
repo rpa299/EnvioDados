@@ -14,8 +14,13 @@ public class activity_LerDados extends AppCompatActivity {
         setContentView(R.layout.activity__ler_dados);
 
         Intent intent = getIntent();
+        //Nome
         String Nome = intent.getStringExtra(App.Nome);
-        TextView textViewNome = (TextView) findViewById(R.id.textViewVerNome);
-        textViewNome.setText(Nome);
+        TextView textViewVerNome = (TextView) findViewById(R.id.textViewVerNome);
+        textViewVerNome.setText(Nome);
+        //Telefone
+        String Telefone = intent.getStringExtra(App.Telefone);
+        TextView textViewVerTelefone = (TextView) findViewById(R.id.textViewVerTelefone);
+        textViewVerTelefone.setText(Telefone);
     }
 }
