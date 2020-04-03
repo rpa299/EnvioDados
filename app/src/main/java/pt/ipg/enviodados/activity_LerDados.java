@@ -22,5 +22,9 @@ public class activity_LerDados extends AppCompatActivity {
         String Telefone = intent.getStringExtra(App.Telefone);
         TextView textViewVerTelefone = (TextView) findViewById(R.id.textViewVerTelefone);
         textViewVerTelefone.setText(Telefone);
+        //Email
+        String Email = intent.getStringExtra(App.Email);
+        TextView textViewVerEmail = (TextView) findViewById(R.id.textViewVerEmail);
+        textViewVerEmail.setText(Email);
     }
 }

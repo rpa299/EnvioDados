@@ -26,7 +26,10 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextTelefone = (EditText) findViewById(R.id.editTextTelefone);
         String telefone = editTextTelefone.getText().toString();
         intent.putExtra(App.Telefone, telefone);
-
+        //Email
+        EditText editTextEmail = (EditText) findViewById(R.id.editTextEmail);
+        String email = editTextEmail.getText().toString();
+        intent.putExtra(App.Email, email);
         startActivity(intent);
     }
 }
