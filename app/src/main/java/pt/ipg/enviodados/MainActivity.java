@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextPeso = (EditText) findViewById(R.id.editTextPeso);
         String peso = editTextPeso.getText().toString();
         intent.putExtra(App.Peso, peso);
+        //Altura
+        EditText editTextAltura = (EditText) findViewById(R.id.editTextAltura);
+        String altura = editTextAltura.getText().toString();
+        intent.putExtra(App.Altura, altura);
 
         startActivity(intent);
     }
