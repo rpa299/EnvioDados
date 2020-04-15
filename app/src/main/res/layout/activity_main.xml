@@ -83,4 +83,10 @@
         android:onClick="enviarDados"
         android:text="Enviar" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fazer isto com textInput Layout em vez de editText" />
+
 </LinearLayout>
