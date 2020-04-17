@@ -15,8 +15,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="Nome"
-        android:inputType="textPersonName" />
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTelefone"
@@ -26,7 +27,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="Telefone"
+        android:hint="@string/telefone"
         android:inputType="phone" />
 
     <EditText
@@ -37,7 +38,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textWebEmailAddress" />
 
     <EditText
@@ -48,7 +49,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="Idade"
+        android:hint="@string/idade"
         android:inputType="number" />
 
     <EditText
@@ -59,7 +60,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="Peso"
+        android:hint="@string/peso"
         android:inputType="number" />
 
     <EditText
@@ -70,7 +71,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="Altura"
+        android:hint="@string/altura"
         android:inputType="number|numberDecimal" />
 
     <Button
@@ -81,7 +82,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:onClick="enviarDados"
-        android:text="Enviar" />
+        android:text="@string/enviar" />
 
     <TextView
         android:id="@+id/textView"

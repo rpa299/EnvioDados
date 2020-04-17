@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EnvioDados</string>
+    <string name="dados">Dados</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="idade">Idade</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="enviar">Enviar</string>
+    <string name="Nome_Invalido">Preencha o nome</string>
+    <string name="Telefone_Invalido">Telefone inválido</string>
+    <string name="Email_Invalido">Preencha o email</string>
+    <string name="Idade_invalida">Preencha a idade</string>
+    <string name="Peso_invalido">Preencha o peso</string>
+    <string name="Altura_invalida">Preencha a altura</string>
+</resources>

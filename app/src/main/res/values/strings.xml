@@ -1,3 +1,17 @@
-<resources>
+    <resources>
     <string name="app_name">EnvioDados</string>
-</resources>
+    <string name="dados">Data</string>
+        <string name="nome">Name</string>
+        <string name="telefone">Phone</string>
+        <string name="email">Email</string>
+        <string name="idade">Age</string>
+        <string name="peso">Weight</string>
+        <string name="altura">Height</string>
+        <string name="enviar">Send</string>
+        <string name="Nome_Invalido">Fill the name</string>
+        <string name="Telefone_Invalido">Invalid phone</string>
+        <string name="Email_Invalido">Fill an email</string>
+        <string name="Idade_invalida">Fill an age</string>
+        <string name="Peso_invalido">Fill a weight</string>
+        <string name="Altura_invalida">Fill a height</string>
+    </resources>

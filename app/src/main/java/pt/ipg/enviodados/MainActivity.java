@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextNome = (EditText) findViewById(R.id.editTextNome);
         String nome = editTextNome.getText().toString();
         if(nome.length() == 0){
-            editTextNome.setError("Preencha um nome");
+            editTextNome.setError(getString(R.string.Nome_Invalido));
             editTextNome.requestFocus();
             return;
         }
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextTelefone = (EditText) findViewById(R.id.editTextTelefone);
         String telefone = editTextTelefone.getText().toString();
         if(telefone.length() < 9){
-            editTextTelefone.setError("Telefone Invalido");
+            editTextTelefone.setError(getString(R.string.Telefone_Invalido));
             editTextTelefone.requestFocus();
             return;
         }
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         String email = editTextEmail.getText().toString();
         if(email.length() == 0){
-            editTextEmail.setError("Preencha um Email");
+            editTextEmail.setError(getString(R.string.Email_Invalido));
             editTextEmail.requestFocus();
             return;
         }
@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
         //Idade
         EditText editTextIdade = (EditText) findViewById(R.id.editTextIdade);
         String idade = editTextIdade.getText().toString();
+
         if(idade.length() == 0){
-            editTextIdade.setError("Preencha uma Idade");
+            editTextIdade.setError(getString(R.string.Idade_invalida));
             editTextIdade.requestFocus();
             return;
         }
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextPeso = (EditText) findViewById(R.id.editTextPeso);
         String peso = editTextPeso.getText().toString();
         if(peso.length() == 0){
-            editTextPeso.setError("Preencha um peso");
+            editTextPeso.setError(getString(R.string.Peso_invalido));
             editTextPeso.requestFocus();
             return;
         }
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextAltura = (EditText) findViewById(R.id.editTextAltura);
         String altura = editTextAltura.getText().toString();
         if(altura.length() == 0){
-            editTextAltura.setError("Preencha uma Altura");
+            editTextAltura.setError(getString(R.string.Altura_invalida));
             editTextAltura.requestFocus();
             return;
         }
